@@ -1,0 +1,16 @@
+<script language="vbscript" runat="server">
+sub Application_OnStart
+end sub
+sub Application_OnEnd
+end sub
+sub Session_OnStart
+  session.Timeout=60
+end sub
+sub Session_OnEnd
+	for each x in Application.Contents
+		if len(x) > 36 AND left(x,36) = session("operation_id") then
+			  Application.Contents.Remove(x)
+		end if
+	Next
+end sub
+</script>

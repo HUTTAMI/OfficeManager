@@ -1,0 +1,34 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio 6.0">
+<TITLE></TITLE>
+</HEAD>
+<BODY  bgcolor=lightgrey scroll=no>
+<CENTER>
+<TABLE WIDTH=* BORDER=0 CELLSPACING=0 CELLPADDING=0>
+	<TR>
+		<TD colspan=2 rowspan=2 align=left width=* height=350 valign=top>
+		<FONT size=+1><B>Postoperative Menu</B></FONT>
+	<HR width=320 align=left>
+	<center>
+	<TABLE WIDTH=* BORDER=0 CELLSPACING=4 CELLPADDING=1>
+	<TR>
+		<TD align=center><INPUT id=backBtn style="FONT-WEIGHT: bold; FONT-SIZE: larger; WIDTH: 313px; COLOR: black; FONT-FAMILY: monospace; HEIGHT: 60px; BACKGROUND-COLOR: grey" onclick="document.location.href='postopdiagnosis.asp'" type=button size=92 value=Diagnosis name=backBtn></TD>
+	</TR>
+	<TR>
+		<TD align=center><INPUT id=backBtn style="FONT-WEIGHT: bold; FONT-SIZE: larger; WIDTH: 313px; COLOR: black; FONT-FAMILY: monospace; HEIGHT: 60px; BACKGROUND-COLOR: grey" onclick="document.location.href='postoprecommendations.asp'" type=button size=92 value=Recommendations name=backBtn></TD>
+	</TR>
+	<TR>
+		<TD align=center><INPUT id=backBtn style="FONT-WEIGHT: bold; FONT-SIZE: larger; WIDTH: 312px; COLOR: black; FONT-FAMILY: monospace; HEIGHT: 60px; BACKGROUND-COLOR: grey" onclick="document.location.href='postopdesc.asp'" type=button size=92 value="Description of procedure" name=backBtn></TD>
+	</TR>
+	<TR>
+		<TD align=center><INPUT id=backBtn style="FONT-WEIGHT: bold; FONT-SIZE: larger; WIDTH: 312px; COLOR: black; FONT-FAMILY: monospace; HEIGHT: 60px; BACKGROUND-COLOR: grey" onclick="document.location.href='opwizardmenu.asp'" type=button size=92 value="Procedure Menu" name=backBtn></TD>
+	</TR>
+	</TABLE>
+	</center>
+		</TD>
+	</TR>
+</TABLE>
+</CENTER>
+</BODY>
+</HTML>
